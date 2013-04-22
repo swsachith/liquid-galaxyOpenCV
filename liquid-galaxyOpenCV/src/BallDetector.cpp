@@ -1,9 +1,8 @@
 //============================================================================
-// Name        : OpenCVLearning.cpp
-// Author      :
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Name        : BallDetector.cpp
+// Author      : Sachith Withana
+// Version     : 1.0
+// Description : controll liquid-galaxy with a ball.
 //============================================================================
 #include <stdlib.h>
 #include <stdio.h>

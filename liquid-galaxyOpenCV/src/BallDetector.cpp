@@ -11,13 +11,16 @@
 #include <cxcore.h>
 #include <highgui.h>
 
-int detectBall();
+#include "NewBallDetector.h"
+
+int detectBall_c();
 
 int main(int argc, char *argv[]) {
-	detectBall();
+	detectBall_new();
 	return 0;
 }
-int detectBall(){
+//works in previous OpenCV versions as well ( before 2.0)
+int detectBall_c(){
 
 	CvSize size640x480 = cvSize(640, 480);
 	CvCapture* p_captureWebCam; // webcam stream
